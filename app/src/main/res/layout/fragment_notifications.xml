@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context=".fragments.notifications.NotificationsFragment">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_simple_notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_button_ripple_bg"
+        android:text="Simple Notificaton" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_inboxstyle_notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_button_ripple_bg"
+        android:text="Inbox Style Notification" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_largetext_notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_button_ripple_bg"
+        android:text="Large Text Notification" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_image_notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_button_ripple_bg"
+        android:text="Image Notification" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

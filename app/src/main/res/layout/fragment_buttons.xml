@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context=".fragments.buttons.ButtonsFragment">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_custom_style_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Normal Button" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_custom_style_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_button_ripple_bg"
+        android:text="Rounded Button with Ripple" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_custom_style_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textAllCaps="false"
+        android:background="@drawable/custom_button_rounded_line_ripple_bg"
+        android:text="Line Stroke Button with Ripple" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_custom_style_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_button_gradient_ripple_bg"
+        android:text="Gradient Button with Ripple" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_custom_style_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_button_drawed"
+        android:text="Drawed Button" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_custom_style_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textAllCaps="false"
+        android:background="@drawable/custom_button_dashed_line"
+        android:text="Dashed Line Button" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_custom_style_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textAllCaps="false"
+        android:background="@drawable/custom_button_lined_gradient"
+        android:text="Line + Radial Gradient Button" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_custom_style_8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_button_drawed_line"
+        android:text="Corners Button" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_custom_style_9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.MaterialComponents.Light"
+        android:layout_marginBottom="8dp"
+        android:textAllCaps="false"
+        android:text="Material Button" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

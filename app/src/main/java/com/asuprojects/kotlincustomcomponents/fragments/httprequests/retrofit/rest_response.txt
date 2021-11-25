@@ -1,0 +1,131 @@
+{
+  "by": "default",
+  "valid_key": true,
+  "results": {
+    "currencies": {
+      "source": "BRL",
+      "USD": {
+        "name": "Dollar",
+        "buy": 5.2324,
+        "sell": 5.2445,
+        "variation": 1.756
+      },
+      "EUR": {
+        "name": "Euro",
+        "buy": 5.9062,
+        "sell": 5.9097,
+        "variation": 1.135
+      },
+      "GBP": {
+        "name": "Pound Sterling",
+        "buy": 6.5944,
+        "sell": null,
+        "variation": 1.477
+      },
+      "ARS": {
+        "name": "Argentine Peso",
+        "buy": 0.0753,
+        "sell": null,
+        "variation": 1.074
+      },
+      "BTC": {
+        "name": "Bitcoin",
+        "buy": 52622.714,
+        "sell": 52622.714,
+        "variation": -0.339
+      }
+    },
+    "stocks": {
+      "IBOVESPA": {
+        "name": "BM&F BOVESPA",
+        "location": "Sao Paulo, Brazil",
+        "points": 93531.172,
+        "variation": 1.25
+      },
+      "NASDAQ": {
+        "name": "NASDAQ Stock Market",
+        "location": "New York City, United States",
+        "points": 9895.87,
+        "variation": 0.61
+      },
+      "CAC": {
+        "name": "CAC 40",
+        "location": "Paris, French",
+        "variation": 2.84
+      },
+      "NIKKEI": {
+        "name": "Nikkei 225",
+        "location": "Tokyo, Japan",
+        "variation": -1
+      }
+    },
+    "available_sources": [
+      "BRL"
+    ],
+    "bitcoin": {
+      "blockchain_info": {
+        "name": "Blockchain.info",
+        "format": [
+          "USD",
+          "en_US"
+        ],
+        "last": 9481.04,
+        "buy": 9481.04,
+        "sell": 9481.04,
+        "variation": -0.41
+      },
+      "coinbase": {
+        "name": "Coinbase",
+        "format": [
+          "USD",
+          "en_US"
+        ],
+        "last": 9478.775,
+        "variation": -0.429
+      },
+      "bitstamp": {
+        "name": "BitStamp",
+        "format": [
+          "USD",
+          "en_US"
+        ],
+        "last": 9481.92,
+        "buy": 9482,
+        "sell": 9478.4,
+        "variation": -0.452
+      },
+      "foxbit": {
+        "name": "FoxBit",
+        "format": [
+          "BRL",
+          "pt_BR"
+        ],
+        "last": 49751,
+        "variation": -0.279
+      },
+      "mercadobitcoin": {
+        "name": "Mercado Bitcoin",
+        "format": [
+          "BRL",
+          "pt_BR"
+        ],
+        "last": 49699.99,
+        "buy": 49590,
+        "sell": 49699.99,
+        "variation": 0.159
+      }
+    },
+    "taxes": [
+      {
+        "date": "2020-06-15",
+        "cdi": 3,
+        "selic": 3,
+        "daily_factor": 1.00011345,
+        "selic_daily": 2.9,
+        "cdi_daily": 2.9
+      }
+    ]
+  },
+  "execution_time": 0,
+  "from_cache": true
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    android:id="@+id/main_container_alert_dialog"
+    tools:context=".fragments.dialogs.AlertDialogsFragment">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_alertdialog_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_button_ripple_bg"
+        android:text="Custom AlertDialog" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_alertdialog_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_button_ripple_bg"
+        android:text="Custom Dialog" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_alertdialog_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_button_ripple_bg"
+        android:text="Custom DialogFragment" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_alertdialog_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_button_ripple_bg"
+        android:text="Custom Animated DialogFragment" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.spinners.SpinnersFragment">
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/spinners_example_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/custom_spinner_rounded_stroke_with_icon"
+        tools:listitem="@android:layout/simple_spinner_item"
+        android:spinnerMode="dropdown" />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/spinners_example_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:popupBackground="@drawable/custom_spinner_outline_with_back_white"
+        android:background="@drawable/custom_spinner_outline_borders"
+        tools:listitem="@layout/spinner_country_item"
+        android:spinnerMode="dropdown" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:background="@drawable/custom_view_rounded_borders_no_padding"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/spinners_example_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:popupBackground="@drawable/custom_spinner_outline_with_back_white"
+            tools:listitem="@layout/custom_spinner_item"
+            android:spinnerMode="dropdown" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

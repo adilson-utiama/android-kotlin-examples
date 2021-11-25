@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/popmenu_option_droidtext"
+        android:title="Use DroidText" />
+
+    <item android:id="@+id/popmenu_option_pdfprinter"
+        android:title="Use PrintedPdfDocument" />
+
+    <item android:id="@+id/popmenu_option_viewtoimage"
+        android:title="View to Image" />
+
+    <item android:id="@+id/popmenu_option_canvas"
+        android:title="MultilineText in Canvas" />
+</menu>

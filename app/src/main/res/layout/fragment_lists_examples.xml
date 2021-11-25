@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context=".fragments.lists.ListsExamplesFragment">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_expandable_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_button_ripple_bg"
+        android:text="Expandable ListView" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_list_with_swipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_button_ripple_bg"
+        android:text="RecyclerView with Swipe Action" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_list_swipe_drag_drop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_button_ripple_bg"
+        android:text="RecyclerView with Swipe DragDrop Action" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_list_item_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_button_ripple_bg"
+        android:text="RecyclerView with Item Menu" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_proto_expandable_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_button_ripple_bg"
+        android:text="Proto Expandable RecyclerView Item" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_recycler_inside_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_button_ripple_bg"
+        android:text="Proto RecyclerView inside Recycler" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_recycler_searchview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_button_ripple_bg"
+        android:text="Proto RecyclerView with SearchView" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_recycler_gridlayout_manager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_button_ripple_bg"
+        android:text="Proto RecyclerView with GridLayoutManager" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

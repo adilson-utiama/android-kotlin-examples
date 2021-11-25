@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/pm_checkable_item_editart"
+        android:title="Editar" />
+    <item android:id="@+id/pm_checkable_item_deletar"
+        android:title="Deletar" />
+    <item android:id="@+id/pm_checkable_item_info"
+        android:title="Info" />
+</menu>

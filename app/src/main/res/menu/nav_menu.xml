@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    tool:showIn="nav_view">
+
+    <item android:title="Prototypes">
+        <menu>
+            <item android:id="@+id/nav_menu_prototypes"
+                android:title="My Prototypes" />
+        </menu>
+    </item>
+
+    <item android:title="Interface/Layouts">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_menu_layouts"
+                    android:title="Interface and Layouts" />
+
+                <item
+                    android:id="@+id/nav_menu_lists"
+                    android:title="Lists Examples" />
+
+                <item
+                    android:id="@+id/nav_menu_widgets"
+                    android:title="Widgets Examples" />
+
+                <item
+                    android:id="@+id/nav_menu_inputs"
+                    android:title="Input Examples" />
+
+                <item
+                    android:id="@+id/nav_menu_spinners"
+                    android:title="Spinners Examples" />
+
+                <item
+                    android:id="@+id/nav_menu_media"
+                    android:title="Media Examples" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Android Achitecture">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_menu_room_db"
+                    android:title="Room Database" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Async Processes">
+        <menu>
+            <group android:checkableBehavior="single" >
+                <item
+                    android:id="@+id/nav_menu_http_requests"
+                    android:title="Http Requests Examples" />
+
+                <item
+                    android:id="@+id/nav_menu_async_tasks"
+                    android:title="Async Examples" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Device Resources">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_menu_device_resources"
+                    android:title="Storage and Permissions" />
+
+                <item
+                    android:id="@+id/nav_menu_services"
+                    android:title="Services (BackgroundTasks)" />
+
+                <item
+                    android:id="@+id/nav_menu_sensors"
+                    android:title="Sensors" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Animations">
+        <menu>
+            <item android:id="@+id/nav_menu_transitions"
+                android:title="Transitions"/>
+        </menu>
+    </item>
+
+
+
+</menu>

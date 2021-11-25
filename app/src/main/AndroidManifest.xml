@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.asuprojects.kotlincustomcomponents">
+    <!-- Add below line in your Manifest.xml to add permission for storage and camera -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".prototypes.blurimage.BlurBackgroundActivity"></activity>
+        <activity android:name=".prototypes.recyclercardscale.RecyclerCardScaleActivity" />
+        <activity android:name=".prototypes.recyclrsnapzoom.RecyclerSnapZoomActivity" />
+        <activity android:name=".prototypes.recyclerviewpager.RecyclerViewPagerActivity" />
+        <activity android:name=".prototypes.recyclercarousel.RecyclerPagerSnapCarouselActivity" />
+        <activity android:name=".prototypes.api.PaletteAPIActivity" />
+        <activity
+            android:name=".prototypes.collapsingtoolbar.CollapsingToolBarActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".fragments.pickers.filepicker.FilePickerActivity" />
+        <activity android:name=".prototypes.gridlayoutmanager.ProtoGridLayoutManagerActivity" />
+        <activity android:name=".fragments.lists.expandablelistview.ExpandableListViewActivity" />
+        <activity android:name=".prototypes.expandableitem.ExpandableRecyclerItemActivity" />
+        <activity android:name=".fragments.lists.gridlayoutmanager.GridLayoutManagerActivity" />
+        <activity android:name=".fragments.transitions.sharedfragment.SharedFragmentActivity" />
+        <activity
+            android:name=".fragments.transitions.sharedactivity.ProductDetailActivity"
+            android:theme="@style/AppTheme.Transition" />
+        <activity
+            android:name=".fragments.transitions.sharedactivity.SharedTransitionActivity"
+            android:theme="@style/AppTheme.Transition" />
+        <activity android:name=".fragments.architecture.room.RoomDatabaseActivity" />
+        <activity android:name=".fragments.httprequests.downloadmanager.DownloadManagerActivity" />
+        <activity android:name=".fragments.lists.searchview.RecyclerSearchViewActivity" />
+        <activity android:name=".fragments.lists.recyclerinside.RecyclerInsideActivity" />
+        <activity android:name=".fragments.lists.expandable.ProtoExpandableRecyclerActivity" />
+        <activity android:name=".fragments.httprequests.retrofit.RetrofitExampleActivity" />
+        <activity android:name=".fragments.httprequests.okhttp.OkHttpExampleActivity" />
+        <activity android:name=".fragments.httprequests.volley.VolleyRequestActivity" />
+        <activity android:name=".fragments.async.asynctask.AsyncTaskActivity" />
+        <activity android:name=".fragments.backgroundtasks.workmanager.WorkManagerExActivity" />
+        <activity android:name=".fragments.media.image.ImagesActivity" />
+        <activity android:name=".fragments.media.video.VideoActivity" />
+        <activity android:name=".fragments.media.audio.AudioActivity" />
+        <activity
+            android:name=".prototypes.customprogressbar.CustomProgressBarActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".prototypes.pdfprint.PdfFilesActivity" />
+        <activity
+            android:name=".prototypes.pdfprint.PdfPrinterActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".prototypes.AddItemListActivity" />
+        <activity android:name=".fragments.sensors.ShakeServiceActivity" />
+        <activity android:name=".fragments.backgroundtasks.alarmmanager.AlarmActivity" />
+        <activity android:name=".fragments.backgroundtasks.speechservice.TextSpeechActivity" />
+        <activity android:name=".fragments.backgroundtasks.playmediaservice.PlayMediaActivity" />
+        <activity android:name=".fragments.notifications.NotificationAfterActivity" />
+        <activity android:name=".fragments.bottomsheet.custom.PersistentBottomSheetActivity" />
+        <activity android:name=".fragments.pickers.timepicker.TimePickerActivity" />
+        <activity android:name=".fragments.pickers.datepicker.DatePickerActivity" />
+        <activity android:name=".fragments.lists.menu.RecyclerItemMenuActivity" />
+        <activity android:name=".fragments.lists.dragdrop.RecyclerSwipeDragDropActivity" />
+        <activity android:name=".fragments.lists.swipe.RecyclerSwipeActionsActivity" />
+        <activity
+            android:name=".splashscreen.SplashScreenActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Transparent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" /> <!-- AlarmReceiver -->
+        <receiver
+            android:name=".fragments.backgroundtasks.alarmmanager.AlarmReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.asuprojects.EXECUTAR_ALARME" />
+            </intent-filter>
+        </receiver> <!-- BootNotificationReceiver -->
+        <receiver
+            android:name=".fragments.backgroundtasks.alarmmanager.bootreceiver.BootNotificationReceiver"
+            android:enabled="false"
+            android:exported="false"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+            <intent-filter android:priority="999">
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".fragments.sensors.ShakeService" />
+        <service android:name=".fragments.backgroundtasks.playmediaservice.PlayMediaService" />
+        <service android:name=".fragments.backgroundtasks.speechservice.SpeechService" /> <!-- FileProvider - a ContentProvider for making the image file securely available to the other end -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.asusprojects.kotlincustomcomponents.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

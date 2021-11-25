@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_audio_record_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="00:00"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/panel_audio_track"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_close_panel_record" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/btn_close_panel_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_close_gray" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/panel_audio_track"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/panel_audio_controller"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_audio_record_time">
+
+        <androidx.appcompat.widget.AppCompatSeekBar
+            android:id="@+id/progressbar_audio_record"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/text_audio_begin_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            app:layout_constraintBottom_toTopOf="@+id/progressbar_audio_record"
+            app:layout_constraintStart_toStartOf="@+id/progressbar_audio_record" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/text_audio_end_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1:00"
+            app:layout_constraintBottom_toTopOf="@+id/progressbar_audio_record"
+            app:layout_constraintEnd_toEndOf="@+id/progressbar_audio_record" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/panel_audio_controller"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/panel_audio_track">
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/btn_audio_record_play"
+            android:layout_width="@dimen/audio_controller_button_size"
+            android:layout_height="@dimen/audio_controller_button_size"
+            android:layout_marginEnd="16dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"
+            app:srcCompat="@drawable/ic_play_arrow_gray" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/btn_audio_record_pause"
+            android:layout_width="@dimen/audio_controller_button_size"
+            android:layout_height="@dimen/audio_controller_button_size"
+            android:layout_marginEnd="16dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_pause_gray" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/btn_audio_record_stop"
+            android:layout_width="@dimen/audio_controller_button_size"
+            android:layout_height="@dimen/audio_controller_button_size"
+            android:layout_marginEnd="16dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"
+            app:srcCompat="@drawable/ic_stop_gray" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/btn_audio_record"
+            android:layout_width="@dimen/audio_controller_button_size"
+            android:layout_height="@dimen/audio_controller_button_size"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"
+            app:srcCompat="@drawable/ic_record_red" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/btn_audio_recorded_done"
+            android:layout_width="@dimen/audio_controller_button_size"
+            android:layout_height="@dimen/audio_controller_button_size"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_marginLeft="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:srcCompat="@drawable/ic_done_green" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

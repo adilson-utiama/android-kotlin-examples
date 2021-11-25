@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorButtonNormal">#FF9800</color>
+    <color name="colorButtonPressed">#FF5722</color>
+
+    <!-- Custom ProgressBar Colors -->
+    <color name="colorProgressValue">#2196F3</color>
+    <color name="colorProgressMaxValue">#D5E1FF</color>
+
+    <color name="receita">#2F65FA</color>
+    <color name="receita_d">#0f36a7</color>
+    <color name="despesa">#E04212</color>
+    <color name="despesa_d">#963406</color>
+
+    <color name="progressGradientGreenLight">#12BBA6</color>
+    <color name="progressGradientGreenDark">#076D61</color>
+
+    <color name="white">#ffff</color>
+    <color name="grey_20">#cccccc</color>
+    <color name="grey_80">#37474F</color>
+
+    <color name="selected">#FFFFFF</color>
+    <color name="unselected">#DDDD</color>
+
+</resources>

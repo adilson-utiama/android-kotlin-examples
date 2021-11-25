@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.asuprojects.kotlincustomcomponents.fragments.lists.expandable.expandablelayout.ExpandableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/vh_expandable_recycler_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_view_rounded_borders"
+    android:layout_marginTop="4dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginBottom="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:paddingBottom="4dp">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/vh_expandable_recycler_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/vh_expandable_recycler_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="8dp"
+            android:text="Item Header"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/vh_expandable_recycler_add"
+            app:layout_constraintStart_toEndOf="@+id/vh_expandable_recycler_checkbox"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/vh_expandable_recycler_add"
+            style="@style/AppTheme.ClickableViewBorderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            app:layout_constraintBottom_toBottomOf="@+id/vh_expandable_recycler_arrow"
+            app:layout_constraintEnd_toStartOf="@+id/vh_expandable_recycler_arrow"
+            app:layout_constraintTop_toTopOf="@+id/vh_expandable_recycler_arrow"
+            app:srcCompat="@drawable/ic_add_grey" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/vh_expandable_recycler_arrow"
+            style="@style/AppTheme.ClickableViewBorderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_spinner_carret_vector" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/vh_recycler_items"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="12dp"/>
+
+
+
+</com.asuprojects.kotlincustomcomponents.fragments.lists.expandable.expandablelayout.ExpandableLayout>

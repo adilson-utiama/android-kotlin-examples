@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context=".menuscreens.PrototypesFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_add_item_list_screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:background="@drawable/custom_button_ripple_bg"
+                android:text="Add Item List Screen" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_print_pdf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:background="@drawable/custom_button_ripple_bg"
+                android:text="Print Content in PDF" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_custom_progressbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:background="@drawable/custom_button_ripple_bg"
+                android:text="Custom ProgressBar" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_custom_expandable_recycler_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:background="@drawable/custom_button_ripple_bg"
+                android:text="Custom Expandable Recycler Item" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_proto_grid_layout_manager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:background="@drawable/custom_button_ripple_bg"
+                android:text="Example GridLayoutManager" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_proto_collapsing_tool_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:background="@drawable/custom_button_ripple_bg"
+                android:text="Collapsing Tool Bar" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_proto_palette_api"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:background="@drawable/custom_button_ripple_bg"
+                android:text="Palette API" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_proto_recycler_carousel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:background="@drawable/custom_button_ripple_bg"
+                android:text="RecyclerView PagerSnap like Carousel" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_proto_recycler_view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:background="@drawable/custom_button_ripple_bg"
+                android:text="RecyclerView ViewPager" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_proto_recycler_snap_zoom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:background="@drawable/custom_button_ripple_bg"
+                android:text="RecyclerView Snap Zoom" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_proto_recycler_card_scale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:background="@drawable/custom_button_ripple_bg"
+                android:text="RecyclerView Card Scale" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_proto_blur_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:background="@drawable/custom_button_ripple_bg"
+                android:text="Blur Image with RenderScript" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
