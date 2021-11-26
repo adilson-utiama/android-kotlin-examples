@@ -10,6 +10,7 @@
 * Bottom Sheet
 * Notifications
 * RecyclerView 
+    - ConcatAdapter
     - Swipe Actions 
     - DragAndDrop 
     - Expandable Item 
