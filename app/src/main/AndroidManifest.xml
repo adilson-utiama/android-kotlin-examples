@@ -22,7 +22,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".prototypes.blurimage.BlurBackgroundActivity"></activity>
+        <activity android:name=".fragments.lists.concatadapter.ConcatAdapterExampleActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".prototypes.blurimage.BlurBackgroundActivity" />
         <activity android:name=".prototypes.recyclercardscale.RecyclerCardScaleActivity" />
         <activity android:name=".prototypes.recyclrsnapzoom.RecyclerSnapZoomActivity" />
         <activity android:name=".prototypes.recyclerviewpager.RecyclerViewPagerActivity" />

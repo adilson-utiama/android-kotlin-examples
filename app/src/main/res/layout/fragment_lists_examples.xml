@@ -8,6 +8,16 @@
     tools:context=".fragments.lists.ListsExamplesFragment">
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_concat_adapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_button_ripple_bg"
+        android:text="ConcatAdapter Example" />
+
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_expandable_list_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
