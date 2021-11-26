@@ -49,4 +49,14 @@
         android:background="@drawable/custom_button_ripple_bg"
         android:text="Custom Animated DialogFragment" />
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_alertdialog_full"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_button_ripple_bg"
+        android:text="Custom DialogFragment FullScreen" />
+
 </androidx.appcompat.widget.LinearLayoutCompat>

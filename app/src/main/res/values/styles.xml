@@ -26,6 +26,19 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>-->
 
+    <style name="AppTheme.Dialog.FullScreen"
+        parent="Theme.MaterialComponents.Dialog">
+        <!-- (1)-->
+        <!-- The android:windowIsFloating tells the dialog don’t use wrap_content for its size,
+            instead, it will use match_parent which is the size of the screen. -->
+        <item name="android:windowIsFloating">false</item>
+        <!-- (2) -->
+        <!-- The android:windowBackgrond override the default background drawable for a dialog.
+            The default one has insets around the translucent black mask.
+            If we miss this attribute, the dialog leaves margins between the screen edges. -->
+        <!--<item name="android:windowBackground">@android:color/transparent</item>-->
+    </style>
+
     <!-- Custom Toolbar Theme -->
     <style name="CustomToolbarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
         <item name="android:fontFamily">@font/caveat_bold</item>

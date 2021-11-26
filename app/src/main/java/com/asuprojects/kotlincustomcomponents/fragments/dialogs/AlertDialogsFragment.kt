@@ -57,5 +57,9 @@ class AlertDialogsFragment : Fragment() {
             val animationFragment = CustomDialogAnimationFragment()
             animationFragment.show(requireActivity().supportFragmentManager, "animationFragment")
         }
+
+        btn_alertdialog_full.setOnClickListener {
+            DialogFullScreen().show(requireActivity().supportFragmentManager, "FullScreen")
+        }
     }
 }
