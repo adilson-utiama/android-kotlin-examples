@@ -47,4 +47,34 @@
         android:background="@drawable/custom_button_ripple_bg"
         android:text="Image Notification" />
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_not_expansivel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_button_ripple_bg"
+        android:text="Notificacção Expansivel" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/not_btn_notificacao_intent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Notificação mais Intent"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_button_ripple_bg"
+        android:textAllCaps="false" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/not_btn_notificacao_grupo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Notificações Agrupadas"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custom_button_ripple_bg"
+        android:textAllCaps="false" />
+
 </androidx.appcompat.widget.LinearLayoutCompat>

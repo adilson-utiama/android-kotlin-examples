@@ -70,7 +70,8 @@
         <activity android:name=".fragments.backgroundtasks.alarmmanager.AlarmActivity" />
         <activity android:name=".fragments.backgroundtasks.speechservice.TextSpeechActivity" />
         <activity android:name=".fragments.backgroundtasks.playmediaservice.PlayMediaActivity" />
-        <activity android:name=".fragments.notifications.NotificationAfterActivity" />
+        <activity android:name=".fragments.notifications.NotificationAfterActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".fragments.bottomsheet.custom.PersistentBottomSheetActivity" />
         <activity android:name=".fragments.pickers.timepicker.TimePickerActivity" />
         <activity android:name=".fragments.pickers.datepicker.DatePickerActivity" />
