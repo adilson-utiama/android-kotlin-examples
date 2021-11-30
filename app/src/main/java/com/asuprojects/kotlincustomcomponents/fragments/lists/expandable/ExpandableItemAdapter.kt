@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.asuprojects.kotlincustomcomponents.R
-import com.asuprojects.kotlincustomcomponents.fragments.lists.expandable.expandablelayout.ExpandableLayout
+import com.asuprojects.kotlincustomcomponents.custom.ExpandableLayout
 import kotlinx.android.synthetic.main.viewholder_expandable_item.view.*
 
 class ExpandableItemAdapter(val expandableItems: MutableList<InterviewModel>)

@@ -22,6 +22,8 @@
     - GridLayoutManager
     - PagerSnap
     - ViewPager2
+* Layouts
+    - Expandable View Examples
 * Widgets
     - ProgressBar
     - SeekBar

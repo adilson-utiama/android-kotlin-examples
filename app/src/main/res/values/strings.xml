@@ -6,6 +6,7 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="long_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id tortor non augue molestie dignissim. Duis ac dictum odio, semper sodales massa. Quisque eget cursus neque. Nunc id vestibulum mi, vitae vehicula dui. Fusce porttitor urna ac quam porttitor, eu gravida lectus tempus. Cras bibendum libero fermentum finibus hendrerit. Duis vel odio vel libero pretium aliquam et non turpis. Nulla ornare vestibulum sapien. Pellentesque nec congue est, sit amet cursus sapien. Suspendisse dignissim urna ex, ac vehicula tortor laoreet sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elit nulla, dapibus eget posuere in, faucibus quis enim. Vestibulum orci tortor, imperdiet eu ante et, pellentesque tincidunt ex.</string>
 
     <string-array name="meses">
         <item>Janeiro</item>

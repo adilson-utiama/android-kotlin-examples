@@ -1,4 +1,4 @@
-package com.asuprojects.kotlincustomcomponents.fragments.lists.expandable.expandablelayout
+package com.asuprojects.kotlincustomcomponents.custom
 
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter

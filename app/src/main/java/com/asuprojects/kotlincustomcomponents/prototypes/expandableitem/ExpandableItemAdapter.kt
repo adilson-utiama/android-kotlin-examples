@@ -13,7 +13,7 @@ import androidx.appcompat.widget.AppCompatTextView
 import androidx.appcompat.widget.PopupMenu
 import androidx.recyclerview.widget.RecyclerView
 import com.asuprojects.kotlincustomcomponents.R
-import com.asuprojects.kotlincustomcomponents.fragments.lists.expandable.expandablelayout.ExpandableLayout
+import com.asuprojects.kotlincustomcomponents.custom.ExpandableLayout
 import com.asuprojects.kotlincustomcomponents.helpers.ToastUtil
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope

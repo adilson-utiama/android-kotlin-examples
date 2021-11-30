@@ -14,6 +14,7 @@ import com.asuprojects.kotlincustomcomponents.R
 import com.asuprojects.kotlincustomcomponents.fragments.bottomsheet.BottomSheetsFragment
 import com.asuprojects.kotlincustomcomponents.fragments.buttons.ButtonsFragment
 import com.asuprojects.kotlincustomcomponents.fragments.dialogs.AlertDialogsFragment
+import com.asuprojects.kotlincustomcomponents.fragments.layouts.ExpandViewTMFragment
 import com.asuprojects.kotlincustomcomponents.fragments.notifications.NotificationsFragment
 import com.asuprojects.kotlincustomcomponents.fragments.pickers.PickersFragment
 import kotlinx.android.synthetic.main.fragment_interface_layouts.*
@@ -78,6 +79,10 @@ class InterfaceLayoutsFragment : Fragment() {
             MainItem(
                 "Notifications",
                 NotificationsFragment()
+            ),
+            MainItem(
+                "Expandable View Examples",
+                ExpandViewTMFragment()
             )
 
         )

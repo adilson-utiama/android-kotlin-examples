@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.asuprojects.kotlincustomcomponents.fragments.lists.expandable.expandablelayout.ExpandableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.asuprojects.kotlincustomcomponents.custom.ExpandableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/vh_expandable_recycler_container"
@@ -69,4 +69,4 @@
 
 
 
-</com.asuprojects.kotlincustomcomponents.fragments.lists.expandable.expandablelayout.ExpandableLayout>
+</com.asuprojects.kotlincustomcomponents.custom.ExpandableLayout>
