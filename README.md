@@ -10,7 +10,7 @@
 * Bottom Sheet
 * Notifications
     - Normal
-    - Expansivel (Long Text)
+    - Expansivel (Large Text)
     - Grouped
     - With PendingIntent
 * RecyclerView 
@@ -25,6 +25,7 @@
 * Layouts
     - Expandable View Examples
 * Widgets
+    - Expandable Button Menu (Custom)
     - ProgressBar
     - SeekBar
     - RatingBar

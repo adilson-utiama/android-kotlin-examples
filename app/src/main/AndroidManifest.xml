@@ -22,7 +22,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".fragments.lists.concatadapter.ConcatAdapterExampleActivity"
+        <activity android:name=".prototypes.expandmenu.ExpandMenuButtonActivity"></activity>
+        <activity
+            android:name=".fragments.lists.concatadapter.ConcatAdapterExampleActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".prototypes.blurimage.BlurBackgroundActivity" />
         <activity android:name=".prototypes.recyclercardscale.RecyclerCardScaleActivity" />
@@ -70,7 +72,8 @@
         <activity android:name=".fragments.backgroundtasks.alarmmanager.AlarmActivity" />
         <activity android:name=".fragments.backgroundtasks.speechservice.TextSpeechActivity" />
         <activity android:name=".fragments.backgroundtasks.playmediaservice.PlayMediaActivity" />
-        <activity android:name=".fragments.notifications.NotificationAfterActivity"
+        <activity
+            android:name=".fragments.notifications.NotificationAfterActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".fragments.bottomsheet.custom.PersistentBottomSheetActivity" />
         <activity android:name=".fragments.pickers.timepicker.TimePickerActivity" />
