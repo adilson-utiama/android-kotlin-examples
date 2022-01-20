@@ -55,7 +55,8 @@ dependencies {
     implementation 'androidx.recyclerview:recyclerview:1.2.1'
     implementation 'com.google.android.material:material:1.2.1'
 
-    implementation "androidx.preference:preference:1.1.1"
+    //Shared Preferences
+    implementation "androidx.preference:preference-ktx:1.1.1"
 
     //Exifinterface
     implementation "androidx.exifinterface:exifinterface:1.3.1"
@@ -105,4 +106,13 @@ dependencies {
 
     //ExpandableLayout
     implementation 'net.cachapa.expandablelayout:expandablelayout:2.9.2'
+
+    //QRGenerator
+    implementation 'androidmads.library.qrgenearator:QRGenearator:1.0.4'
+    implementation 'com.google.zxing:core:3.3.2'
+
+    //ZXing Android Embedded
+    implementation 'com.journeyapps:zxing-android-embedded:4.3.0'
+
+
 }

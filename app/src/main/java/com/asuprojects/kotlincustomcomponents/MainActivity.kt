@@ -1,5 +1,6 @@
 package com.asuprojects.kotlincustomcomponents
 
+import android.content.Intent
 import android.content.pm.ActivityInfo
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
@@ -17,6 +18,7 @@ import com.asuprojects.kotlincustomcomponents.fragments.media.MediaExamplesFragm
 import com.asuprojects.kotlincustomcomponents.fragments.spinners.SpinnersFragment
 import com.asuprojects.kotlincustomcomponents.fragments.widgets.WidgetsExamplesFragment
 import com.asuprojects.kotlincustomcomponents.menuscreens.*
+import com.asuprojects.kotlincustomcomponents.screens.qrcode.QRCodeActivity
 import com.google.android.material.navigation.NavigationView
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -69,6 +71,9 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
     override fun onNavigationItemSelected(menuItem: MenuItem): Boolean {
         when(menuItem.itemId){
+            R.id.nav_menu_qr_code -> {
+                startActivity(Intent(this@MainActivity, QRCodeActivity::class.java))
+            }
             R.id.nav_menu_layouts -> {
                 val tx = supportFragmentManager.beginTransaction()
                 tx.replace(R.id.framelayout_main_window,

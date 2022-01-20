@@ -56,3 +56,4 @@
 * Pdf Printer
 * Collapsing ToolBar
 * Palette API
+* QRCode create/read
