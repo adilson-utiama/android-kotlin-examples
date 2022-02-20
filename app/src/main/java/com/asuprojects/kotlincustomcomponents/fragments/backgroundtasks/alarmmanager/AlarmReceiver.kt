@@ -15,7 +15,7 @@ class AlarmReceiver : BroadcastReceiver() {
 
         intent?.apply {
             if(this.hasExtra(EXTRA_ALARM_MSG_CONTENT)){
-                this.getStringExtra(EXTRA_ALARM_MSG_CONTENT).apply {
+                this.getStringExtra(EXTRA_ALARM_MSG_CONTENT)?.apply {
                     val msg = this
                     context?.apply {
                         SpeechUtil.speakMsg(this, "Alarme Disparado", msg)

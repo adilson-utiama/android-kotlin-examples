@@ -33,8 +33,6 @@
                     android:id="@+id/nav_menu_spinners"
                     android:title="Spinners Examples" />
 
-
-
             </group>
         </menu>
     </item>
@@ -45,6 +43,27 @@
                 <item
                     android:id="@+id/nav_menu_media"
                     android:title="Media Examples" />
+
+                <item
+                    android:id="@+id/nav_menu_camerax"
+                    android:title="CameraX Example" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Device Resources">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_menu_qr_code"
+                    android:title="QR Code" />
+                <item
+                    android:id="@+id/nav_menu_device_resources"
+                    android:title="Storage and Permissions" />
+
+                <item
+                    android:id="@+id/nav_menu_sensors"
+                    android:title="Sensors" />
             </group>
         </menu>
     </item>
@@ -73,22 +92,7 @@
                 <item
                     android:id="@+id/nav_menu_async_tasks"
                     android:title="Async Examples" />
-                <item
-                    android:id="@+id/nav_menu_qr_code"
-                    android:title="QR Code" />
-            </group>
-        </menu>
-    </item>
-    <item android:title="Device Resources">
-        <menu>
-            <group android:checkableBehavior="single">
-                <item
-                    android:id="@+id/nav_menu_device_resources"
-                    android:title="Storage and Permissions" />
 
-                <item
-                    android:id="@+id/nav_menu_sensors"
-                    android:title="Sensors" />
             </group>
         </menu>
     </item>

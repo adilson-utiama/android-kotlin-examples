@@ -66,6 +66,23 @@
         <item name="android:focusable">true</item>
     </style>
 
+    <style name="AppTheme.IconRippleEffectWhite">
+        <item name="android:background">@drawable/ripple_effect_circle_white</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="AppTheme.SelectableItemRippleWhite">
+        <item name="colorControlHighlight">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.ClickableIconWhiteRipple">
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:theme">@style/AppTheme.SelectableItemRippleWhite</item>
+    </style>
+
     <style name="AppTheme.DefaultButtonStyle">
         <item name="android:textColor">@android:color/white</item>
         <item name="android:background">@drawable/custom_button_ripple_bg</item>

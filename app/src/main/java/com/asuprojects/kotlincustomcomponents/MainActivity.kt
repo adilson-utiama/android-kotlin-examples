@@ -18,6 +18,7 @@ import com.asuprojects.kotlincustomcomponents.fragments.media.MediaExamplesFragm
 import com.asuprojects.kotlincustomcomponents.fragments.spinners.SpinnersFragment
 import com.asuprojects.kotlincustomcomponents.fragments.widgets.WidgetsExamplesFragment
 import com.asuprojects.kotlincustomcomponents.menuscreens.*
+import com.asuprojects.kotlincustomcomponents.screens.camerax.CameraXExamplesActivity
 import com.asuprojects.kotlincustomcomponents.screens.qrcode.QRCodeActivity
 import com.google.android.material.navigation.NavigationView
 import kotlinx.android.synthetic.main.activity_main.*
@@ -71,6 +72,9 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
     override fun onNavigationItemSelected(menuItem: MenuItem): Boolean {
         when(menuItem.itemId){
+            R.id.nav_menu_camerax -> {
+                startActivity(Intent(this@MainActivity, CameraXExamplesActivity::class.java))
+            }
             R.id.nav_menu_qr_code -> {
                 startActivity(Intent(this@MainActivity, QRCodeActivity::class.java))
             }
