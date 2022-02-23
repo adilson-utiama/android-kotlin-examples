@@ -34,6 +34,7 @@
     - Chips
     - Custom Inputs
     - Spinners
+    - PopupMenu (Custom)
 * Room
 * WorkManager
 * AlarmManager
@@ -45,6 +46,7 @@
     - Record Audio
     - Pick Image
     - Blur Image (RenderScript)
+    - CameraX Basic Example
 * Http Request
     - Volley
     - OkHttp
