@@ -22,6 +22,7 @@ import com.asuprojects.kotlincustomcomponents.prototypes.recyclercardscale.Recyc
 import com.asuprojects.kotlincustomcomponents.prototypes.recyclercarousel.RecyclerPagerSnapCarouselActivity
 import com.asuprojects.kotlincustomcomponents.prototypes.recyclerviewpager.RecyclerViewPagerActivity
 import com.asuprojects.kotlincustomcomponents.prototypes.recyclrsnapzoom.RecyclerSnapZoomActivity
+import com.asuprojects.kotlincustomcomponents.screens.menupopup.MenuPopupActivity
 import kotlinx.android.synthetic.main.fragment_prototypes.*
 
 class PrototypesFragment : Fragment() {
@@ -44,6 +45,11 @@ class PrototypesFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+
+        bind.btnPopupMenuCustom.setOnClickListener {
+            startActivity(Intent(requireActivity(), MenuPopupActivity::class.java))
+        }
 
         bind.btnExpandMenu.setOnClickListener {
             startActivity(Intent(requireActivity(), ExpandMenuButtonActivity::class.java))

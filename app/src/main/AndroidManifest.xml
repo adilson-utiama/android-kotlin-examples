@@ -24,7 +24,7 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
-            android:name=".prototypes.menupopup.MenuPopupActivity"
+            android:name="com.asuprojects.kotlincustomcomponents.screens.menupopup.MenuPopupActivity"
             android:exported="false" />
         <activity
             android:name=".screens.camerax.CameraXTakePhotoActivity"
